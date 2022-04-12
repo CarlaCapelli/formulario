@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="formulario" method="post">
+      <ul>
+        <li>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" />
+        </li>
+        <li>
+          <label for="lastname">Apellido:</label>
+          <input type="text" id="lastname" />
+        </li>
+        <li>
+          <label for="mail">Correo electrónico:</label>
+          <input type="email" id="mail" name="user_mail" />
+        </li>
+        <li>
+          <label for="msg">Consulta:</label>
+          <textarea id="msg"></textarea>
+        </li>
+        <li class="button">
+          <button type="submit" id="enviar">Envíe su mensaje</button>
+        </li>
+      </ul>
+    </form>
+    <script src="index.ts"></script>
+  </body>
+</html>
